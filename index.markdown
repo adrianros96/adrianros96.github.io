@@ -4,3 +4,7 @@
 
 layout: home
 ---
+
+## Välkommen till min sida.
+
+![](programming2.jpg)

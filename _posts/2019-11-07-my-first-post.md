@@ -1,7 +1,18 @@
 ---
 layout: "post"
-title: "This is the real first post"
+title: "Första blogginlägget"
 author: "Adrian Rosales"
+permalink: /blog/my-first-post
 ---
 
-some content in my first POST!
+Yoyo!
+
+Detta är mitt första blogginlägg. Jag håller på att arbeta för fullt för att lösa designen på denna webbplats.
+
+### To-do:
+
+1. Integrera disqus till mina bloggposter 
+2. Min webbplats ska innehålla robots.txt och humans.txt
+3. opengraph
+
+När detta är löst kommer jag kunna skicka in examination 1.
