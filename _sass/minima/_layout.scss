@@ -115,6 +115,7 @@
 .footer-heading {
   @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+  color: $grey-color;
 }
 
 .contact-list,
