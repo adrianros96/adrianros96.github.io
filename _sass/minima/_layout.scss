@@ -101,13 +101,30 @@
   }
 }
 
-.center-image
-{
+.center-image {
     margin: 0 auto;
     display: block;
+    width: 500px;
 }
 
+.center-image2 {
+  margin: 0 auto;
+  display: block;
+}
 
+.center-postImg {
+  margin: 0 auto;
+    display: block;
+    width: 400px;
+}
+
+.smallSize {
+  width: 350px;
+}
+
+.smallSize:hover {
+  opacity: 50%;
+}
 
 /**
  * Site footer
@@ -186,7 +203,8 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
-  //background-image: ;
+  background-image: url("/image/back.jpg");
+  background-size: 3000px;
 }
 
 .page-heading {
