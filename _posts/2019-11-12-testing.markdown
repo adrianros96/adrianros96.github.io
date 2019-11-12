@@ -25,11 +25,9 @@ robots.txt lägger man i root-katalogen till på sin webbplats.
 
 ## humans.txt
 
-Humans.txt är en lättillgänglig och lättläst text-fil som innehåller information om vilka som byggt webbplatsen. Humans.txt kan till exempel innehålla kontaktinformation, speciella tack eller mjukvaruinformation. Egentligen kan man väl lägga till vilken information man vill som är relevant för webbplatsen. 
+Humans.txt är en text-fil som består av information om vem/vilka som skapat webbplatsen. Humans.txt kan exempelvis innehålla kontaktinformation till skaparna, vilka verktyg som har använts vid skapandet samt tackmeddelanden. 
 
-
-  I min humans.txt har jag valt att använda mig av information  och min platsdestination. 
-   enbart använt mig av information om mig själv och vart jag befinner mig i världen.
+I min humans.txt har jag valt att dela mina kontaktuppgifter, min platsdestination samt vilka verktyg jag använt.
 
 
 {% highlight ruby %}/* TEAM */ 
