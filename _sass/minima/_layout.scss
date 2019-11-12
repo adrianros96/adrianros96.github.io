@@ -101,6 +101,12 @@
   }
 }
 
+.center-image
+{
+    margin: 0 auto;
+    display: block;
+}
+
 
 
 /**
@@ -180,6 +186,7 @@
 .page-content {
   padding: $spacing-unit 0;
   flex: 1;
+  //background-image: ;
 }
 
 .page-heading {
@@ -214,8 +221,18 @@
 /**
  * Posts
  */
+
+.post {
+  border-style: solid;
+  background-color: lightgray;
+  margin-top: 5px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
 .post-header {
   margin-bottom: $spacing-unit;
+  padding-top: 5px;
 }
 
 .post-title {
