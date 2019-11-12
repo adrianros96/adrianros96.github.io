@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "Testing!!"
+title:  "Humans and robots"
 categories: blog update
 author: "Adrian Rosales"
 permalink: /blog/testing
 comments: true
 ---
-#### Testar
-###### olika
-### headers
 
-1. ett
-2. två
-3. tre
+## Robot.txt
+Jag har nu börjat komma igång med arbetet kring min nya blogg. Igår lade jag upp en robot.txt fil. Det är en textfil som ger instruktioner till sökmotorer om vilket innehåll som tillåts att indexeras eller spindlas. Filen läggs i roten av din domän. Jag har ställt in min så att allt är tillåtet.
 
+## Humans.txt
+Idag lade jag till en humans.txt fil.En sådan fil kan användas för att presentera de personer som har bidragit till webbplatsen. Det kan vara webbprogrammerare, designers, chefer etc. Detta är en fil som är till för oss människor att läsa och är inte påträngande för övrig kod. Det finns ännu ingen standard för hur en humans.txt ska skrivas men det eftersöks just nu. Jag valde att följa ett exempel som fanns på “humanstxt.org”.
