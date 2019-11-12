@@ -1,14 +1,45 @@
 ---
 layout: post
 title:  "Humans and robots"
-categories: blog update
+categories: generally
 author: "Adrian Rosales"
-permalink: /blog/testing
+permalink: /post/humans-and-robots
 comments: true
+image: /image/humansandrobots.jpg
 ---
 
-## Robot.txt
-Jag har nu börjat komma igång med arbetet kring min nya blogg. Igår lade jag upp en robot.txt fil. Det är en textfil som ger instruktioner till sökmotorer om vilket innehåll som tillåts att indexeras eller spindlas. Filen läggs i roten av din domän. Jag har ställt in min så att allt är tillåtet.
+![handshake](/image/humansandrobots.jpg){: .center-postImg }
 
-## Humans.txt
-Idag lade jag till en humans.txt fil.En sådan fil kan användas för att presentera de personer som har bidragit till webbplatsen. Det kan vara webbprogrammerare, designers, chefer etc. Detta är en fil som är till för oss människor att läsa och är inte påträngande för övrig kod. Det finns ännu ingen standard för hur en humans.txt ska skrivas men det eftersöks just nu. Jag valde att följa ett exempel som fanns på “humanstxt.org”.
+## robots.txt
+
+
+Idag har jag lagt upp robots.txt, det är en text-fil som bestämmer vilka mappar som ska vara åtkomliga eller oåtkomliga för sökmotorer/robotar. Jag har valt att blockera innehållet på hela webbplatsen från alla sökmotorer i min txt-fil genom dessa inställningar: 
+
+{% highlight ruby %}
+User-agent: * 
+Disallow: /
+ {% endhighlight %}
+
+robots.txt lägger man i root-katalogen till på sin webbplats.
+
+
+## humans.txt
+
+Humans.txt är en lättillgänglig och lättläst text-fil som innehåller information om vilka som byggt webbplatsen. Humans.txt kan till exempel innehålla kontaktinformation, speciella tack eller mjukvaruinformation. Egentligen kan man väl lägga till vilken information man vill som är relevant för webbplatsen. 
+
+
+  I min humans.txt har jag valt att använda mig av information  och min platsdestination. 
+   enbart använt mig av information om mig själv och vart jag befinner mig i världen.
+
+
+{% highlight ruby %}/* TEAM */ 
+
+Designer & developer: Adrian Rosales
+Email: ar223ng@student.lnu.se
+Github: adrianros96
+Location: Karlskrona, Sweden
+
+/* SITE */ 
+Language: Swedish
+Software: SASS, Docker, Jekyll, Node 
+{% endhighlight %}

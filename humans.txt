@@ -1,6 +1,10 @@
-# TEAM 
+/* TEAM */ 
 
 Designer & developer: Adrian Rosales
 Email: ar223ng@student.lnu.se
 Github: adrianros96
 Location: Karlskrona, Sweden
+
+/* SITE */ 
+Language: Swedish
+Software: SASS, Docker, Jekyll, Node

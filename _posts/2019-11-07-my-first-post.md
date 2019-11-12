@@ -2,8 +2,8 @@
 layout: post
 title: "Första blogginlägget"
 author: "Adrian Rosales"
-permalink: /blog/my-first-post
-categories: blog update
+permalink: /post/my-first-post
+categories: generally
 comments: true
 ---
 
