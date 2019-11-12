@@ -21,7 +21,7 @@
 title: Adrian Rosales
 email: ar223ng@student.lnu.se
 description: >- # this means to ignore newlines until "baseurl:"
-  Fullstack developer student
+  Full stack developer student. Jag studerar mitt första år som webbprogrammerare på Linnéuniversitetet. Denna sida är skapad med jekyll.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  adrianros96
