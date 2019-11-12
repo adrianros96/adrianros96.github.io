@@ -120,10 +120,22 @@
 
 .smallSize {
   width: 350px;
+  filter: grayscale(50%);
 }
 
 .smallSize:hover {
-  opacity: 50%;
+  filter: grayscale(0%);
+}
+
+.post .post-list li {
+  width: 50%;
+  float: left;
+  padding: 0 1px;
+}
+
+.space {
+  margin: 10px;
+  border: 1px solid red;
 }
 
 /**
